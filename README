@@ -2,20 +2,24 @@
 
 ## Escopo
 
-Este projeto trata-se de um módulo de lançamento de notas fiscais de saída (venda) totalmente simplificado, com o intuito de atender uma empresa fictícia do setor industrial de eletroeletrônicos no regime tributário Lucro Real.
+Este projeto é um módulo simplificado para lançamento de notas fiscais de saída (venda), desenvolvido para atender uma empresa fictícia do setor industrial de eletroeletrônicos, enquadrada no regime tributário **Lucro Real**.
 
 ## Simplificações
 
-As tabelas estão estruturadas de forma simplificada, contendo apenas o que é necessário para este módulo. No entanto, elas podem ser expandidas futuramente.
-**Exemplo:** Atualmente, a tabela de **Clientes** não possui coluna de municipio/estado, que é muito importante para fazer calculos automaticos de tributos como o ISS e ICMS
+As tabelas foram estruturadas de forma básica, contendo apenas os campos necessários para este módulo. No entanto, elas podem ser expandidas futuramente.  
+**Exemplo:** Atualmente, a tabela de **Clientes** não possui colunas para município/estado, informações essenciais para cálculos automáticos de tributos como ISS e ICMS.
 
-Este módulo, futuramente, poderia se integrar ao módulo de notas fiscais de entrada (compra), criando um único módulo de lançamento de notas. Além disso, ele poderia ter integrações para gerar lançamentos contábeis, gerar Notas, importar notas, entre outros.
+Este módulo poderá ser integrado futuramente com outros módulos, como:
 
-Em uma nota fiscal existem muitas informações relevantes que não foram abordadas neste momento para simplificação da lógica, como:
+- **Notas Fiscais de Entrada (compra):** criando um único módulo de lançamento de notas.
+- **Lançamentos Contábeis:** geração automática de lançamentos baseados nas notas.
+- **Geração e Importação de Notas Fiscais:** automação de processos fiscais e tributários.
+
+Algumas informações relevantes para uma nota fiscal foram simplificadas e não foram incluídas nesta versão inicial, como:
 
 - Frete
 - Seguro
 - IRPJ
 - CSLL
 - CFOP
-- Descrição dos produtos da nota
+- Descrição detalhada dos produtos na nota
