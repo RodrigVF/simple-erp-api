@@ -23,3 +23,6 @@ Algumas informações relevantes para uma nota fiscal foram simplificadas e não
 - CSLL
 - CFOP
 - Descrição detalhada dos produtos na nota
+
+## Veja também o Frontend deste projeto
+https://github.com/RodrigVF/simple-erp-frontend
